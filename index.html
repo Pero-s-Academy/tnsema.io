@@ -6,10 +6,14 @@
     <title>My Simple Webpage</title>
     <style>
         /* Add some styling to the <h1> element */
-        h1 {
+        h1, h3 {
             font-family: Arial, sans-serif;
             color: #333; /* Dark gray color */
             text-align: center;
+        }
+
+        h3{
+            margin-top: 3cm;
         }
 
         /* Style the <p> element */
@@ -20,6 +24,43 @@
             margin: 20px 0;
         }
 
+        .nav_1{
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav_1 ul li{
+            list-style: none;
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .nav_1 img{
+            border-radius: 50%;
+        }
+
+        .nav_1 ul li a{
+            text-decoration: none;
+            color: rgb(58, 58, 58);
+        }
+
+        .box_1{margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        
+        }
+
+        .box_1 img{
+
+            margin: auto;
+
+        }
+
         /* Add a background color to the entire body */
         body {
             background-color: #f9f9f9; /* Light gray background */
@@ -27,7 +68,22 @@
     </style>
 </head>
 <body>
+
+    <div class="nav_1">
+        <img src="tn.sema pp.png" height="60" alt="profile pic">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+            
+        
+    </div>
     <h1>Welcome to My Webpage</h1>
-    <p>This is a simple HTML file with embedded CSS to get started with web development.</p>
+    <h3>Website under construction. COMING SOON!!!</h3>    
+    <div class="box_1">
+  
+    <img src="en-construction.gif" alt="">
+</div>
 </body>
 </html>
